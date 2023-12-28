@@ -14,10 +14,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex flex-col w-full h-screen border border-black overflow-x-auto mx-auto">
-        <Header />
-        <div className="h-full">{children}</div>
-        <Footer />
+      <body className="flex flex-col w-full h-screen">
+        <div>
+          <Header />
+        </div>
+        <div className="flex w-full h-full justify-center items-center overflow-x-auto">
+          {children}
+        </div>
+        <div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

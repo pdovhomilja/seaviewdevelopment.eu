@@ -8,9 +8,11 @@ const Contacts = (props: Props) => {
   return (
     <div className="flex flex-col items-center justify-center p-5 h-full">
       <div>
-        <h1 className="text-2xl text-[rgb(48,65,88)]">Contact</h1>
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          Contact
+        </h1>
       </div>
-      <div className="flex flex-row space-x-2 ">
+      <div className="flex flex-row space-x-2 py-5 ">
         <p>
           <EnvelopeIcon className="w-6 h-6" />
         </p>
