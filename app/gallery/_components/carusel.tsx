@@ -37,14 +37,14 @@ export const CaruselComponent = () => {
     },
   ];
   return (
-    <Carousel className="w-full max-w-2xl">
+    <Carousel className="w-full max-w-lg md:max-w-2xl 2xl:max-w-[80vh]">
       <CarouselContent>
         {images.map((image, index) => (
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
-                <CardContent className="flex aspect-square items-center justify-center ">
-                  <Image width={600} height={600} alt="Image" src={image.src} />
+                <CardContent className="flex aspect-square relative items-center justify-center ">
+                  <Image alt="Image" src={image.src} fill />
                 </CardContent>
               </Card>
             </div>

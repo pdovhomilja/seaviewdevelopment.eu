@@ -25,9 +25,9 @@ function Header({}: Props) {
         </div>
       </div>
       <div className="flex flex-row space-x-2 px-2">
-        <SocialIcon url="https://www.facebook.com/SeaViewDevelopment/" />
+        {/*       <SocialIcon url="https://www.facebook.com/SeaViewDevelopment/" />
         <SocialIcon url="https://www.instagram.com/seaviewdevelopment/" />
-        <SocialIcon url="https://twitter.com/SeaViewDev" />
+        <SocialIcon url="https://twitter.com/SeaViewDev" /> */}
       </div>
     </div>
   );
